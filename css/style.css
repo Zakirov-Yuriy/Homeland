@@ -1,0 +1,573 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.wrapper {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* 
+Header nav 
+*/
+
+.bg-blue {
+    background: #3D5DDB;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 43px;
+    padding-bottom: 45px;
+}
+
+.nav>li>a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-right: 24px;
+}
+
+.logo {
+    background-image: url(../img/logo.svg);
+    width: 270.39px;
+    height: 46px;
+    margin-left: 243px;
+    margin-right: 240px;
+}
+
+hr {
+    background: rgba(255, 255, 255, 0.20);
+    margin: 0;
+}
+
+.title {
+    display: flex;
+    width: 586px;
+    flex-direction: column;
+    color: #FFF;
+    font-size: 91px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 104.5%;
+    padding-bottom: 42px;
+    padding-top: 122px;
+}
+
+.title-p {
+    display: flex;
+    width: 393px;
+    flex-direction: column;
+    color: #FFF;
+    font-size: 19px;
+    font-family: Satoshi;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 168.5%;
+    padding-bottom: 42px;
+}
+
+.btn {
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 12px 48px;
+    background-color: black;
+    color: #FFF;
+    transition: 0.2s;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: black;
+}
+
+.image-header {
+    position: relative;
+    background-image: url(../img/dom.png);
+    background-repeat: no-repeat;
+    width: 675px;
+    height: 829px;
+    top: -636px;
+    left: 785px;
+}
+
+.bg-blue-2 {
+    background: #3D5DDB;
+    height: 816px;
+}
+
+/* 
+second section
+ */
+.second_section {
+    display: flex;
+    color: #171717;
+    justify-content: space-between;
+}
+
+.second_section-image {
+    background-image: url(../img/girl.png);
+    background-repeat: no-repeat;
+    width: 487px;
+    height: 574px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    box-shadow: inset 9px -12px 64px -3px rgba(247, 247, 247, 1);
+}
+
+.second_section-title h2 {
+    width: 557px;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 106%;
+    margin-top: 173px;
+    padding-bottom: 35px;
+}
+
+.second_section-title p {
+    width: 487px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 168.5%;
+    margin-bottom: 38px;
+}
+
+/* 
+third section
+ */
+
+.third_section {
+    color: #171717;
+
+}
+
+.third_section-title {
+    display: flex;
+    width: 557px;
+    flex-direction: column;
+
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 106%;
+    margin-bottom: 56px;
+}
+
+.box_card {
+    display: flex;
+    justify-content: space-between;
+}
+
+.thumb-img {
+    background-image: url(../img/card1.png);
+    width: 360px;
+    height: 360px;
+    margin-bottom: 32px;
+}
+
+.thumb-img-2 {
+    background-image: url(../img/Rectangle-48.png);
+    width: 360px;
+    height: 360px;
+    margin-bottom: 32px;
+}
+
+.thumb-img-3 {
+    background-image: url(../img/card3.png);
+    width: 360px;
+    height: 360px;
+    margin-bottom: 32px;
+}
+
+
+
+.title-card {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 104.5%;
+    margin-bottom: 18px;
+}
+
+.text-card {
+    display: flex;
+    width: 360px;
+    flex-direction: column;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 168.5%;
+}
+
+.adress-card {
+    display: flex;
+    width: 338px;
+    flex-direction: column;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 168.5%;
+    margin-bottom: 15px;
+    padding-left: 22px;
+}
+
+.image {
+    background-image: url(/img/Frame.svg);
+    background-repeat: no-repeat;
+    padding-bottom: 5px;
+}
+
+.price-card {
+    color: #3D5DDB;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 104.5%;
+}
+
+/* 
+fourth section
+ */
+
+.sponsors {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    align-items: center;
+}
+
+.Airbnb {
+    background-image: url(../img/Airbnb.svg);
+    background-repeat: no-repeat;
+    width: 174.346px;
+    height: 54.24px;
+}
+
+.Framer {
+    background-image: url(../img/Framer.svg);
+    background-repeat: no-repeat;
+    width: 160.782px;
+    height: 53.271px;
+}
+
+.Squarespace {
+    background-image: url(../img/Squarespace.svg);
+    background-repeat: no-repeat;
+    width: 270.229px;
+    height: 38.743px;
+}
+
+.Webflow {
+    background-image: url(../img/Webflow.svg);
+    background-repeat: no-repeat;
+    width: 154.002px;
+    height: 38.743px;
+}
+
+.Netflix {
+    background-image: url(../img/Netflix.svg);
+    background-repeat: no-repeat;
+    width: 186.933px;
+    height: 78.454px;
+}
+
+
+
+/* 
+ fifth section
+ */
+.reviews-title {
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 106%;
+    margin-bottom: 100px;
+}
+
+.bracket {
+    background-image: url(../img/left-quote.svg);
+    width: 45px;
+    height: 45px;
+    margin-bottom: 32px;
+}
+
+.reviews-card-title {
+    display: flex;
+    width: 557px;
+    flex-direction: column;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 106%;
+    margin-bottom: 32px;
+}
+
+.reviews-card-p {
+    display: flex;
+    width: 491px;
+    flex-direction: column;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 168.5%;
+    margin-bottom: 38px;
+}
+
+.reviiws_piple {
+    display: flex;
+    align-items: center;
+}
+
+.photo_piple {
+    background-image: url(../img/Ellipse-21.png);
+    width: 70px;
+    height: 70px;
+    margin-right: 18px;
+}
+
+.photo_piple-2 {
+    background-image: url(../img/Ellipse-22.png);
+    width: 70px;
+    height: 70px;
+    margin-right: 18px;
+}
+
+.nema_piple {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 106%;
+    margin-bottom: 4px;
+}
+
+.businessman {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 168.5%;
+}
+
+.reviews_box {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.reviews_section {
+    color: #171717;
+    margin-bottom: 120px;
+}
+
+/* 
+sixth section
+ */
+
+.partners {
+    width: 842px;
+    height: 570px;
+    background: #F6F6F6;
+    color: #171717;
+}
+
+.partners-title {
+    display: flex;
+
+    flex-direction: column;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 106%;
+    margin-bottom: 38px;
+    padding-top: 120px;
+    padding-left: 120px;
+}
+
+.partners-p {
+    display: flex;
+    width: 640px;
+    flex-direction: column;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 168.5%;
+    padding-left: 120px;
+}
+
+.partners_box {
+    display: flex;
+}
+
+/* form */
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+/* При расчете размеров инпутов учитываем внутренние отступы и границы */
+input,
+textarea {
+    box-sizing: border-box;
+}
+
+/* Стили правой колонки */
+.right-side {
+    width: 75%;
+    /* занимает 75% общей ширины */
+    margin-left: 75px;
+    padding-top: 100px;
+}
+
+/* Заголовок правой колонки */
+.topic-text {
+    font-size: 23px;
+    font-weight: 600;
+    color: #3D5DDB;
+    margin-bottom: 10px;
+}
+
+/* Контейнер для input'ов формы */
+.input-box {
+    height: 50px;
+    /* по сути задаем высоту input'а */
+    width: 100%;
+    /* ширина на всю ширину правой колонки (с учетом padding) */
+    margin-bottom: 20px;
+    /* отступаем снизу 20px */
+}
+
+/* Стили для input и textarea (поле сообщение) */
+.input-box input,
+.input-box textarea {
+    height: 100%;
+    /* растягиваем на всю высоту контейнера 50px */
+    width: 100%;
+    /* растягиваем на всю ширину */
+    border: none;
+    /* убираем внешние края */
+    border-radius: 5px;
+    /* скругляем края */
+    background: #F6F6F6;
+    /* задаем цвет фона */
+    padding: 0 20px;
+    /* отступ справа и слева 20px */
+}
+
+/* Отдельно стилизуем поле сообщение */
+.input-box textarea {
+    resize: none;
+    /* чтобы нельзя было менять высоту */
+    padding: 20px;
+
+}
+
+/* Это контейнер для поля сообщение */
+.message-box {
+    min-height: 110px;
+    /* минимальная высота 110px */
+}
+
+/* Стили для самой кнопки */
+.button input[type="button"] {
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 12px 48px;
+    background-color: black;
+    color: #FFF;
+    transition: 0.2s;
+    /* чтобы плавно менялся цвет при наведении (:hover) */
+}
+
+/* Меняем цвет фона при наведении на кнопку */
+.button input[type="button"]:hover {
+    background-color: #fff;
+    color: black;
+}
+
+/* 
+
+footer
+
+*/
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+    padding-bottom: 120px;
+    color: #171717;
+}
+
+.footer-title {
+    margin-right: 254px;
+}
+
+.footer-title-h2 {
+    display: flex;
+    width: 360px;
+    flex-direction: column;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 106%;
+    margin-bottom: 24px;
+}
+
+.footer-title-p {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 168.5%;
+}
+
+.service,
+.social {
+    display: flex;
+    flex-direction: column;
+    color: #171717;
+}
+
+.service a,
+.social a {
+    text-decoration: none;
+    color: #171717;
+    margin-bottom: 12px;
+    font-size: 16px;
+}
+
+.service-title,
+.contact-title,
+.social-title {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 106%;
+    margin-bottom: 42px;
+}
+
+.contact {
+    width: 200px;
+}
+
+.contact p {
+    color: #171717;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 168.5%;
+}
